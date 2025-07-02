@@ -25,21 +25,8 @@ public class EmpCode extends CustomJavaAction<java.lang.Long>
 	@java.lang.Override
 	public java.lang.Long executeAction() throws Exception
 	{
-		
-
-		// Safely handle null input
-		if (number == null)
-			return 0L;
-
-		// Convert Long to primitive long
-		long num = number.longValue();
-
-		// Compute square using Math.pow and cast result to long
-		long squared = (long) Math.pow(num, 3);
-
-		// Return result as Long
-		return Long.valueOf(squared);
-
+		// BEGIN USER CODE
+		throw new com.mendix.systemwideinterfaces.MendixRuntimeException("Java action was not implemented");
 		// END USER CODE
 	}
 
