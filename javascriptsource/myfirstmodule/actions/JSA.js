@@ -16,6 +16,6 @@ import { Big } from "big.js";
  */
 export async function JSA() {
 	// BEGIN USER CODE
-	window.print();a
+  window.print();a
 	// END USER CODE
 }
